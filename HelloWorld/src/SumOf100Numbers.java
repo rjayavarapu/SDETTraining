@@ -1,0 +1,20 @@
+
+public class SumOf100Numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("sum of 100 Numbers is " + sumOf100Numbers(100));
+	}
+
+	
+	private static int sumOf100Numbers(int n)
+	{
+		int sum = 0;
+		for (int i =1;i<=n;i++)
+		{
+			sum = sum + i;
+		}
+		return sum;
+	}
+}

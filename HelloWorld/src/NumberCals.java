@@ -1,0 +1,36 @@
+
+public class NumberCals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		printName();
+		addNumbers(5,6);
+		int product = multiplyNumbers(5,6);
+
+		System.out.println("Multiplication of Two Numbers in main:" + product);
+	}
+	
+	private static void printName()
+	{
+		System.out.println("My Name is Tim");
+		
+	}
+	
+	private static void addNumbers(int number1,int number2)
+	{
+		int sum =  number1 + number2;
+		System.out.println("Addition of Two Numbers:" + sum);
+		
+	}
+	
+	private static int multiplyNumbers(int number1, int number2)
+	{
+
+		System.out.println("Multiplication of Two Numbers:" + number1 * number2);
+		addNumbers(number1,number2+50);
+		return(number1 * number2);
+	}
+	
+
+}

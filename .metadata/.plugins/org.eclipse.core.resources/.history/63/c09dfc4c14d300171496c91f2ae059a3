@@ -1,0 +1,15 @@
+package oopspak;
+
+public class BankAccount {
+
+	String accountNumber;
+	String rountingNumber;
+	String name;
+	String ssn;
+	
+	void BankAccount()
+	{
+		
+		
+	}
+}

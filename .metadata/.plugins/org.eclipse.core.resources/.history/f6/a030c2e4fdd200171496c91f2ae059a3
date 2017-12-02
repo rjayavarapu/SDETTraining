@@ -1,0 +1,27 @@
+
+public class Cities {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] cities = new String[]{"Dalls","Pleasanton","Ongole"};
+		System.out.println(cities[0]);
+		System.out.println(cities[1]);
+		System.out.println(cities[2]);
+
+		String[] cities1 = new String[3];
+		cities1[0] = "Dalls";
+		cities1[1] = "Dalls1";
+		cities1[2] = "Dalls2";
+		
+		//System.out.println(cities[0]);
+		
+		for (int i=0; i< cities1.length;i++)
+		{
+			System.out.println(cities[i);
+					
+		}
+		
+	}
+
+}

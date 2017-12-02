@@ -1,0 +1,24 @@
+package oopspak;
+
+public class BankAccountApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		BankAccount acc1 = new BankAccount();
+		acc1.setName("Ramesh);
+		BankAccount acc2 = new BankAccount("Checking");
+		BankAccount acc3 = new BankAccount("Checking",5000);
+		System.out.println(acc2.getRoutingNumber());
+		System.out.println(acc2.getRoutingNumber());
+		System.out.println(acc3.getBalance());
+		
+		System.out.println(acc2.toString());
+		CDAccount cd1 = new CDAccount();
+		cd1.name ="krisha";
+		cd1.balance = 5000.00;
+		System.out.println(cd1.toString());
+		cd1.compound();
+	}
+
+}

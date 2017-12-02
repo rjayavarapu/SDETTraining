@@ -1,0 +1,14 @@
+package StringMa;
+
+public class StringOperations {
+	public static void main(String[] args) {
+	
+		/*
+		String abc="2";
+		System.out.println(Integer.parseInt(abc));
+		*/
+		float salary = 76000.23F;
+		
+	}
+
+}

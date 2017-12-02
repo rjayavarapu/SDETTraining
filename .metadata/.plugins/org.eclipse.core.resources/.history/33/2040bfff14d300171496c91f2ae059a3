@@ -1,0 +1,43 @@
+package oopspak;
+
+public class BankAccount {
+
+	String accountNumber;
+	String rountingNumber;
+	String name;
+	String ssn;
+	String accountType;
+	
+	BankAccount()
+	{
+
+		accountNumber = null;
+		rountingNumber= null;
+		name= null;
+		ssn= null;
+		accountType= null;
+		
+	}
+	
+	void depoist()
+	{
+		
+		
+	}
+	
+	void getStatus()
+	{
+		
+	}
+	void withDraw()
+	{
+		
+	}
+	
+	void getBalance()
+	{
+		
+		
+	}
+}
+

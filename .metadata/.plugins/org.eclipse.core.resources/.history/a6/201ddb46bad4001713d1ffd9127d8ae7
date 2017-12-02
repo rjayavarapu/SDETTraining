@@ -1,0 +1,117 @@
+package oopspak;
+
+public class BankAccount {
+
+	String accountNumber;
+	private static final String rountingNumber ="12351";
+	String name;
+	String ssn;
+	String accountType;
+	Double balance = 0.0;
+	
+	BankAccount()
+	{
+		accountNumber = null;
+		name= "Ramesh";
+		ssn= null;		
+		accountType= null;
+		System.out.println("object is created");
+	}
+	
+	BankAccount(String accountType)
+	{
+		name= "Ramesh";
+
+		System.out.println("object is created with " + accountType);
+	}
+	BankAccount(String accountType, int initDeposit)
+	{		
+		//String msg = null;
+		if(initDeposit <1000)
+		{
+			String msg ="Should be Greater than 1000";
+			System.out.println(msg);
+		}
+		else
+		{
+			String msg ="You are good";
+			System.out.println(msg);
+		}
+		balance = balance + initDeposit;
+	}
+	void depoist(double amount)
+	{
+		balance = balance + amount;
+		showActivity();
+	}
+	
+	private void showActivity()
+	{
+		System.out.println("Showing Recent Activity");
+	}
+	void getStatus()
+	{
+	}
+	void withDraw(double amount)
+	{
+		balance = balance - amount;
+		showActivity();	
+	}
+	
+	@Override
+	public String toString()
+	{
+		return("I am in" +name + balance);
+	}
+	
+	Double getBalance()
+	{
+		
+		System.out.println("Balance is" + this.balance);
+		return(this.balance);
+		
+	}
+	String getRoutingNumber()
+	{
+		return rountingNumber;
+	}
+
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSsn() {
+		return ssn;
+	}
+
+	public void setSsn(String ssn) {
+		this.ssn = ssn;
+	}
+
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+	public void setBalance(Double balance) {
+		this.balance = balance;
+	}
+	
+	
+}
+

@@ -1,0 +1,27 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+public class employees {
+
+	public static void main(String[] args) throws Exception{
+		// TODO Auto-generated method stub
+		
+		String query = "select * from dim.dim_employee where employeeid ='30083'";
+
+	    Class.forName("oracle.jdbc.driver.OracleDriver");
+	    Connection con = DriverManager.getConnection("jdbc:oracle:thin:kai/roi97107@svrpdr:1702:DW");
+	    Statement stmt = con.createStatement();
+	    ResultSet rs = stmt.executeQuery(query);
+	    while (rs.next()) {
+	      String name = rs.getString("firstname");
+	      String desc = rs.getString("lastname");
+	      int qty = rs.getInt("employeeid");
+	      float cost = rs.getFloat("CostCenter");
+	      System.out.println(name + ", " + desc + "\t: " + qty + "\t@ $" + cost);
+	    }
+	    con.close();
+
+	}
+
+}

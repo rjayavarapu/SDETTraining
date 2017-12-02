@@ -1,0 +1,10 @@
+package oopspak;
+
+public class CDAccount extends BankAccount {
+	
+	String interestRate()
+	{
+		
+	}
+
+}

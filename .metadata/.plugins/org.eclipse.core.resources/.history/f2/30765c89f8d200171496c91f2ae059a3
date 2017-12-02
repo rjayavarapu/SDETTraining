@@ -1,0 +1,27 @@
+
+public class NumberCals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	private static void printName()
+	{
+		System.out.println("My Name is Tim");
+		
+	}
+	
+	private int addNumbers(int number1,int number2)
+	{
+		
+		
+	}
+	
+	private int multiplyNumbers(int number1, int number2)
+	{
+		
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+package oopspak;
+
+public class LoanAccount implements IRate{
+
+	@Override
+	public void setRate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void increateRate() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

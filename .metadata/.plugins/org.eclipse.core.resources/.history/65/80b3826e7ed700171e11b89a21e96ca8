@@ -1,0 +1,21 @@
+package labs;
+
+public class BankAccountApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class BankAccount
+{
+	
+	//Properties of BankAccount
+	String accountNumber;
+	String routingNumber;
+	String name;
+	String SSN;
+	double balance;
+}

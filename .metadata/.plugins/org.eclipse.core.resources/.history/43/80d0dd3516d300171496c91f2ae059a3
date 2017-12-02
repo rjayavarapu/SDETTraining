@@ -1,0 +1,45 @@
+package oopspak;
+
+public class BankAccount {
+
+	String accountNumber;
+	static String rountingNumber ="12351";
+	String name;
+	String ssn;
+	String accountType;
+	
+	BankAccount()
+	{
+		accountNumber = null;
+		name= null;
+		ssn= null;		
+		accountType= null;
+		System.out.println("object is created");
+	}
+	
+	BankAccount(String AccountType)
+	{
+		System.out.println("object is created with " + AccountType);
+	}
+	void depoist()
+	{
+		
+		
+	}
+	
+	void getStatus()
+	{
+		
+	}
+	void withDraw()
+	{
+		
+	}
+	
+	void getBalance()
+	{
+		
+		
+	}
+}
+

@@ -1,0 +1,31 @@
+package labs;
+
+public class BankAccountApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		BankAccount bankAccount = new BankAccount("1231231234");
+
+	}
+
+}
+
+class BankAccount
+{
+	
+	//Properties of BankAccount
+	private int id;
+	private String accountNumber;
+	private String routingNumber;
+	private String name;
+	private String SSN;
+	private double balance;
+	
+	public BankAccount(String SSN)
+	{
+		System.out.println("Account Created");
+	}
+		
+	
+}

@@ -1,0 +1,14 @@
+
+public class SalaryCalcuator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String carrer;
+		System.out.println("program is starting");
+		carrer="Software Engineer";
+		System.out.println("My Carrer is:" +carrer);
+
+	}
+
+}

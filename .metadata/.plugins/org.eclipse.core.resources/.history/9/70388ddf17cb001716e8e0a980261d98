@@ -1,0 +1,18 @@
+package StringMa;
+
+public class StringOperations {
+	public static void main(String[] args) {
+		int month = 8;
+		String monthString = "";
+		switch(month)
+		{
+		case   8:
+			monthString ="august";
+			System.out.println(monthString.toUpperCase());
+			break;
+
+		}
+
+	}
+
+}

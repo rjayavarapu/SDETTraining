@@ -1,0 +1,22 @@
+package StringMa;
+
+public class StringOperations {
+	public static void main(String[] args) {
+	
+		/*
+		String abc="2";
+		System.out.println(Integer.parseInt(abc));
+		*/
+		int month = 8;
+		string monthString = "";
+		switch(salary)
+		{
+			case   8:
+		  System.out.println(salary);
+			break;
+		
+		}
+		
+	}
+
+}

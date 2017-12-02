@@ -1,0 +1,60 @@
+package oopspak;
+
+public class BankAccount {
+
+	String accountNumber;
+	static final String rountingNumber ="12351";
+	String name;
+	String ssn;
+	String accountType;
+	dobule balance;
+	
+	BankAccount()
+	{
+		accountNumber = null;
+		name= null;
+		ssn= null;		
+		accountType= null;
+		System.out.println("object is created");
+	}
+	
+	BankAccount(String accountType)
+	{
+		System.out.println("object is created with " + accountType);
+	}
+	BankAccount(String accountType, int initDeposit)
+	{		
+		//String msg = null;
+		if(initDepoist <1000)
+		{
+			String msg ="Should be Greater than 1000";
+			System.out.println(msg);
+		}
+		else
+		{
+			String msg ="You are good";
+			System.out.println(msg);
+		}
+	}
+	void depoist()
+	{
+		
+		
+	}
+	
+	void getStatus()
+	{
+		
+	}
+	void withDraw()
+	{
+		
+	}
+	
+	void getBalance()
+	{
+		
+		
+	}
+}
+

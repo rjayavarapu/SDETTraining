@@ -1,0 +1,9 @@
+package Banks;
+
+public class Bank {
+
+	int getInterestRate()
+	{		
+		retrun 0;
+	}
+}

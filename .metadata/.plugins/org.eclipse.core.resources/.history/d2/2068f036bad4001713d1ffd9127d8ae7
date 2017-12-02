@@ -1,0 +1,6 @@
+package oopspak;
+
+public interface IRate {
+	public void setRate();
+
+}

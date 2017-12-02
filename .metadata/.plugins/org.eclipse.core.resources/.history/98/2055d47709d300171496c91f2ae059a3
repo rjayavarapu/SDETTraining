@@ -1,0 +1,15 @@
+
+public class IntegerArrayOperations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] intArray = new int[100];
+		for(int i; i<intArray.length;i++)
+		{
+			
+		}
+
+	}
+
+}

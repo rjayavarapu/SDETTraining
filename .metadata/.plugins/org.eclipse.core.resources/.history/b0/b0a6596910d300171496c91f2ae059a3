@@ -1,0 +1,18 @@
+package oopspak;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Person Attriabutes
+		String name ="Ramesh Babu";
+		String email ="rjayavarapu@gmail.com";
+		String phone="9259635002";
+		
+		//Activity
+		
+		System.out.println(name + " is walking");
+	}
+
+}
